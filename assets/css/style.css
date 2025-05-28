@@ -11,12 +11,16 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
 }
 #portfolio .container{
 	width: 100%;
 	padding: 35px 10%;
 }
 
+#portfolio .container{
+	padding-right: calc(10% - 30px);
+}
 
 #portfolio main.row{
 	display: grid;
