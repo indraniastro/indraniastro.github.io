@@ -1393,7 +1393,7 @@ input, select, textarea {
 		}
 
 		#header nav.use-middle ul li.is-middle {
-			border-left: 0; /*1px solid #ffffff; ;
+			border-left: 1px solid #ffffff; /*0;
 		}
 
 		body.is-article-visible #header {
