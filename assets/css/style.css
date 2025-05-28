@@ -32,6 +32,9 @@ body{
 	font-family: calibri;
 	color: #11a372;
 	padding: 0px 0px 10px 5px;
+	text-transform: none;
+  	letter-spacing: normal;
+	
 }
 #portfolio .col .contents{
 	padding: 0px 30px;
