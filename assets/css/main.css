@@ -594,10 +594,23 @@ input, select, textarea {
   justify-content: center;
 }
 
-.intro-image,
+.intro-image {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+/*.intro-image,
 .intro-text {
   flex: 1 1 300px;
   max-width: 500px;
+}*/
+
+.intro-text {
+  flex: 0 0 40%;
+  max-width: 40%;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .intro-image img {
@@ -606,11 +619,11 @@ input, select, textarea {
   border-radius: 8px;
 }
 
-.intro-text {
+/*.intro-text {
   text-align: left;
   padding: 10px;
   box-sizing: border-box;
-}
+}*/
 
 /* Responsive layout: stack vertically on small screens */
 @media (max-width: 768px) {
@@ -618,9 +631,16 @@ input, select, textarea {
     flex-direction: column;
     align-items: center;
   }
+	
+.intro-image,
+  .intro-text {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: center;
+  }
 
   .intro-text {
-    text-align: center;
+    padding: 10px 20px;
   }
 }
 
