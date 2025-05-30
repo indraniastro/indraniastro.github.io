@@ -152,6 +152,7 @@ input, select, textarea {
   bottom: 0;
   width: 2px;
   background: #FFFFFF;
+  height: 300px
   left: 50%;
   transform: translateX(-50%);
   z-index: 0;
