@@ -150,7 +150,7 @@ input, select, textarea {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #333;
+  background: #FFFFFF;
   left: 50%;
   transform: translateX(-50%);
   z-index: 0;
@@ -159,7 +159,7 @@ input, select, textarea {
 .dot {
   width: 12px;
   height: 12px;
-  background: #333;
+  background: #FFFFFF;
   border-radius: 50%;
   position: relative;
   z-index: 1;
