@@ -901,6 +901,34 @@ input, select, textarea {
 		    width: 100%;
 		  }
 		}
+
+
+	/* For the figures in the Research section */
+
+		.image-research {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-between;
+		  gap: 1rem;
+		  width: 100%;
+		  max-width: 100%;
+		  margin: 0 auto;
+		}
+		
+		.image-research img {
+		  width: calc(40% - 0.5rem); /* was 50%, now 40% for smaller images */
+		  height: auto;
+		  object-fit: cover;
+		  box-sizing: border-box;
+		}
+
+
+		/* Stack vertically on small screens */
+		@media screen and (max-width: 736px) {
+		  .image-research img {
+		    width: 100%;
+		  }
+		}
 /* List */
 
 	ol {
