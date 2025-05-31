@@ -857,6 +857,27 @@ input, select, textarea {
 
 		}
 
+	/* For images in the Miscelleneous section */
+		.image-row {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 1rem;
+		  justify-content: center;
+		}
+		
+		.image-row img {
+		  width: 100%;
+		  max-width: 48%;
+		  height: auto;
+		  object-fit: cover;
+		}
+		
+		@media screen and (max-width: 736px) {
+		  .image-row img {
+		    max-width: 100%;
+		  }
+		}
+
 /* List */
 
 	ol {
