@@ -872,8 +872,8 @@ input, select, textarea {
 		    float: none !important;
 		    display: block;
 		    margin: 0 auto 1rem auto; /* center the image on mobile */
-		    width: 120%;
-		    max-width: 120%;
+		    width: 100%;
+		    max-width: 100%;
 		  }
 		}
 
