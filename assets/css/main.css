@@ -866,8 +866,10 @@ input, select, textarea {
 		}
 		
 		.image-row img {
-		 flex: 0 0 48%;
-		  max-width: 48%;
+		  /*flex: 0 0 48%;
+		  max-width: 48%;*/
+		  flex: 0 0 calc(50% - 0.5rem); /* Two images with gap */
+  		  max-width: calc(50% - 0.5rem);
 		  height: auto;
 		  object-fit: cover;
 		}
