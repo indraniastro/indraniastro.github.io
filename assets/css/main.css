@@ -857,6 +857,17 @@ input, select, textarea {
 
 		}
 
+	/* for the profile image in BIO */
+		@media screen and (max-width: 736px) {
+		  .responsive-float-img {
+		    float: none !important;
+		    display: block;
+		    margin: 0 auto 1rem auto; /* center the image on mobile */
+		    width: 100%;
+		    max-width: 100%;
+		  }
+		}
+
 	/* For images in the Miscelleneous section */
 		.image-row {
 		  display: flex;
