@@ -866,14 +866,15 @@ input, select, textarea {
 		}
 		
 		.image-row img {
-		  width: 100%;
-		  max-width: 90%;
+		 flex: 0 0 48%;
+		  max-width: 48%;
 		  height: auto;
 		  object-fit: cover;
 		}
 		
 		@media screen and (max-width: 736px) {
-		  .image-row img {
+		 .image-row img {
+		    flex: 0 0 100%;
 		    max-width: 100%;
 		  }
 		}
