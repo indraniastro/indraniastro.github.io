@@ -97,6 +97,12 @@ input, select, textarea {
 	body {
 		background: #1b1f22;
 	}
+.badge-star-img {
+    width: 30px;   /* or 20px */
+    height: auto;
+    display: block;
+}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
